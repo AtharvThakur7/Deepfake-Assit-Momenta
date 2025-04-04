@@ -133,7 +133,7 @@ This project implements the AASIST model — a graph attention-based architectur
 
 Clone the Repository 
 ```bash
-  python manage.py runserver
+  https://github.com/AtharvThakur7/Deepfake-Assit-Momenta.git
 ```
 
 Installing dependencies
