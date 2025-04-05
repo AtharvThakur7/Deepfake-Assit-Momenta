@@ -314,3 +314,18 @@ To deploy the AASIST model in a production environment, Docker provides a reliab
 
 **Scalability & Orchestration**:
 - Deploy the container using orchestration tools like Docker Compose, Kubernetes, or AWS ECS to handle multiple requests, load balancing, and horizontal scaling.
+
+
+
+
+## Conclusion: Real-Time Deepfake Speech Detection with AASIST
+
+In this project, we explored, implemented, and evaluated state-of-the-art audio deepfake detection models to identify AI-generated speech in real-world conversations. Through rigorous analysis and benchmarking, AASIST emerged as the best model due to its high accuracy (EER = 0.83%), robustness to real-world noise, and real-time feasibility.
+
+**Key Takeaways from Our Research & Implementation** : 
+
+- AASIST is the optimal choice for real-time deepfake detection, outperforming other models in accuracy, robustness, and practical deployment.
+- Real-world feasibility was a critical focus, ensuring the model can operate effectively in noisy, uncontrolled environments.
+- Scalability & Deployment were considered, with containerization strategies (Docker, APIs) making it easier to integrate into real-world applications.
+- Challenges like computational overhead, inference latency, and data variability were addressed through optimizations such as device-aware training, TensorBoard logging, and evaluation enhancements.
+- Future improvements could include quantization for edge devices, adversarial training for attack resistance, and fusion with speaker biometrics for increased reliability.
